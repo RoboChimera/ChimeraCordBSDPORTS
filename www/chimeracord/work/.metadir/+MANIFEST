@@ -1,0 +1,17 @@
+name: "ChimeraCord"
+version: "0.1.0"
+origin: www/chimeracord
+comment: <<EOD
+A native unofficial discord client for FreeBSD!
+EOD
+maintainer: fernvent@protonmail.com
+prefix: /usr/local
+categories: [ www, ]
+licenselogic: single
+licenses: [ BSD2CLAUSE, ]
+arch : freebsd:13:*
+abi : FreeBSD:13:*
+deps: { 
+}
+options: {
+}
