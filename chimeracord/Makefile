@@ -4,7 +4,6 @@ CATEGORIES=	www
 
 MAINTAINER=	fernvent@protonmail.com
 COMMENT=	A native unofficial discord client for FreeBSD!
-
 LICENSE=	BSD2CLAUSE
 
 USE_GITHUB=	yes
@@ -12,7 +11,7 @@ GH_ACCOUNT=	RoboChimera
 GH_PROJECT=	ChimeraCord
 GH_TAGNAME=	1ed63ff
 
-NO_ARCH=	yes
+ONLY_FOR_ARCH=	amd64 i386
 NO_BUILD=	yes
 
 RUN_DEPENDS=	electron19>=19:devel/electron19 \
